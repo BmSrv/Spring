@@ -70,15 +70,15 @@
     
    - Thymeleaf Extras Java8time
    
-    ~~~
-    <!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-java8time -->
-    <dependency>
-        <groupId>org.thymeleaf.extras</groupId>
-        <artifactId>thymeleaf-extras-java8time</artifactId>
-        <version>3.0.4.RELEASE</version>
-    </dependency>
+      ~~~
+      <!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-java8time -->
+      <dependency>
+          <groupId>org.thymeleaf.extras</groupId>
+          <artifactId>thymeleaf-extras-java8time</artifactId>
+          <version>3.0.4.RELEASE</version>
+      </dependency>
 
-    ~~~
+      ~~~
     
     
     
