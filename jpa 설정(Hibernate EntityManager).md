@@ -15,6 +15,12 @@
           <version>1.9.9.1</version>
           <scope>runtime</scope>
       </dependency>
+      <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.30</version>
+      </dependency>
 
 
     ~~~
