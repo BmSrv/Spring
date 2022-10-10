@@ -40,3 +40,28 @@
         }
       }
     ~~~
+
+  - controller
+    ~~~
+      package controllers.test;
+
+      import java.util.ArrayList;
+      import java.util.List;
+
+      import org.springframework.web.bind.annotation.*;
+
+      @RestController
+      public class RestControllerTest {
+        @GetMapping("/rest")
+        public List<String> test() {
+
+          List<String> list=new ArrayList<>();
+          list.add("abcd");
+          list.add("efg");
+
+          return list;
+        }
+      }
+
+    ~~~
+
