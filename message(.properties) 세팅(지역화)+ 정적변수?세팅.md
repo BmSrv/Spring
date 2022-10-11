@@ -93,3 +93,27 @@
     
  ![image](https://user-images.githubusercontent.com/106857769/195017448-45b45daa-18ea-4ca6-b177-889f1def14df.png)
 
+  - Thymeleaf 메세지 사용
+  ~~~
+<!DOCTYPE html>
+<html 
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/main}"
+	>
+<head>
+
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<main layout:fragment=content>
+		메인페이지
+		<h1 th:text=#{메세지 }></h1>
+		<h1 th:text=#{member.memId}></h1>
+	</main>	
+
+</body>
+</html>
+  ~~~
+	
