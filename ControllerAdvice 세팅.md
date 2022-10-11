@@ -21,7 +21,7 @@
   @ControllerAdvice({"controllers","controller.member"}) //적용될 패키지 지정
   public class CommonErrorHandler {
 
-	@ExceptionHandler(RuntimeException.class)
+	@ExceptionHandler(RuntimeException.class)	//각페이지 오류 공통 처리 부분
 	public String handler(RuntimeException ex,Model model,HttpServletResponse response) {
 		
     /**오류 처리 S*/
