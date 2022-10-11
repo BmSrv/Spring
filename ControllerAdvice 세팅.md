@@ -1,4 +1,4 @@
-# ControllerAdvice (컨트롤러 공통 실행부분 처리)
+# (rest)ControllerAdvice (컨트롤러 공통 실행부분 처리)
   - CommonErrorHandeler
   ~~~
   @ControllerAdvice(적용될 패키지 지정(가변 매개변수))
