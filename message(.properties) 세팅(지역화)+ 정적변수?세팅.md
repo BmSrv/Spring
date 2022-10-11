@@ -49,7 +49,7 @@
 
     ~~~
 
-    
+# 정적 변수 세팅?
     ~~~
     package spring.config;
 
@@ -90,3 +90,6 @@
 
       fileUploadPath=C:\\uploads
     ~~~
+    
+ ![image](https://user-images.githubusercontent.com/106857769/195017448-45b45daa-18ea-4ca6-b177-889f1def14df.png)
+
